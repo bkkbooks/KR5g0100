@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5g0100/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5g0100/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 上清經祕訣
+  date: '2015-08-29 02:54:09.736164'
+  source:
+    repository: kanripo
+    path: KR5g0100
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5g0100_000-ZTDZ.yaml, hash: 'sha256:c41f1773fb42890b814dd7eff3e762c5e88cc0f20d1979fd2e7d95efd9875e5a'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5g0100_000-ZTDZ.markers.yaml, hash: 'sha256:7ddc3c0cb71c19acd6c71e84527b299ae44876737041d6f494b94e705dd7f944'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5g0100_SJB_000-320731c
+    span:
+    - body
+    - 0
+    - 547
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:445eb1e5b526245612e4ce2f5bd42a839c0bfe1394147499850a243cb29cdd1e
